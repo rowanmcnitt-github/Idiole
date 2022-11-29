@@ -106,7 +106,10 @@ function setup()
   imageMode(CENTER)
 
   //setup screen-space dimensions
-  createCanvas(1920, 1080)
+//   createCanvas(1920, 1080)
+  fullscreen(true)
+  
+  render_options['font_size_multiplier'] = 0.00078125 * width
   
   //setup the firebase variables
   configure_firebase()
