@@ -106,8 +106,7 @@ function setup()
   imageMode(CENTER)
 
   //setup screen-space dimensions
-//   createCanvas(1920, 1080)
-  fullscreen(true)
+  createCanvas(windowWidth, windowHeight);
   
   render_options['font_size_multiplier'] = 0.00078125 * width
   
