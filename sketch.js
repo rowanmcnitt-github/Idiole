@@ -963,7 +963,7 @@ function keyPressed()
 }
 function process_key(_key)
 {
-  if('keyboard_button_' + _key in clickable_objects && clickable_objects['keyboard_button_' + _key].qualities['disabled']){return}
+//   if('keyboard_button_' + _key in clickable_objects && clickable_objects['keyboard_button_' + _key].qualities['disabled']){return}
   function check_in_bounds(vec)
   {
     return(vec.x < idiom_structs['word_array'].length && vec.y < idiom_structs['word_array'][vec.x].length && vec.x >= 0 && vec.y >= 0)
